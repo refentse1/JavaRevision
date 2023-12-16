@@ -2,6 +2,8 @@ package org.example.basics;
 
 public class Operators {
      /**
+      * <h1>Operators</h1>
+      *
      *<p>Operators are used to perform operations on variables and values</p>
      *<p>Java has the following operators group:</p>
      *<ul>

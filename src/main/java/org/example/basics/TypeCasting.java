@@ -3,6 +3,8 @@ package org.example.basics;
 public class TypeCasting {
 
     /**
+     * <h1>Type Casting</h1>
+     *
      *<p>Type Casting is when we assign a value of one primitive type to another</p>
      *<p>The are 2 types of casting:</p>
      *<ul>

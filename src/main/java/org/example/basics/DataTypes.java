@@ -1,6 +1,8 @@
 package org.example.basics;
 
 /**
+ * <h1>Data Types</h1>
+ *
  * <p>There are 2 data types:</p>
  * <ul>
  *     <li>Primitive</li>
