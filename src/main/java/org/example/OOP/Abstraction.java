@@ -37,7 +37,7 @@ public class Abstraction {
      *     <strong>To create an abstract class we use the Non-Access Modifier `abstract` when defining the class.</strong>
      * </p>
      *<br>
-     * <p>If we had to initialize the a value in the constructor of the abstract class, we need to do the same for the child class, where by we pass that specific value to the super() method inside of the constructor of the subclass</p>
+     * <p>If we had to initialize the a value in the constructor/method of the abstract class, we need to do the same for the child class, where by we pass that specific value to the super() method inside of the constructor/method of the subclass</p>
      * <br>
      * @Example:
      * <br>
