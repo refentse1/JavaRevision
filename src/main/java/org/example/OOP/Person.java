@@ -2,15 +2,17 @@ package org.example.OOP;
 
 import java.util.Date;
 
-public class Person {
+public abstract class Person {
     String firstname,lastname,contact,email,password;
     long id;
     byte age;
-    public Person(){
+    public Person(String firstname,String lastname){
         id = new Date().hashCode();
         if(id<0){
             id *= -1;
         }
+        this.firstname = firstname;
+        this.lastname = lastname;
     }
 
     //Property Getters and Setters
@@ -39,9 +41,7 @@ public class Person {
         return contact;
     }
 
-    public void setEmail(String value){
-        this.email = value;
-    }
+    public abstract void setEmail();
     public String getEmail(){
         return email;
     }

@@ -1,15 +1,18 @@
 package org.example.OOP;
 
+import java.util.Date;
+
 public class Student extends Person{
     int studentNumber;
 
-    @Override
-    public void setEmail(String value) {
-        super.setEmail(this.studentNumber+"@school.ac.za");
-    }
+    public Student(String firstname,String lastname){
+        super(firstname,lastname);
+        this.studentNumber = new Date().hashCode() < 0 ? (new Date().hashCode() * - 1) : new Date().hashCode() ;
 
-    public void setStudentNumber(int value){
-        this.studentNumber = value;
+    }
+    @Override
+    public void setEmail() {
+        this.email = this.studentNumber+"@school.ac.za";
     }
     public int getStudentNumber(){
         return studentNumber;
