@@ -19,6 +19,7 @@ public class Inheritance {
      * </p>
      * <br>
      * <p><strong>The final keyword can be used on a class to make it that other classes cannot inherit from it</strong></p><br>
+     * <p>When implementing a class using an interface, the class must implement all of the methods and override them. The bodies will be written in this class.</p>
      * @Example:
      * <br>
      * <code>
