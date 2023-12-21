@@ -61,6 +61,9 @@ public class Methods {
      *         <strong>synchronized:</strong>The method can only be accessed by one thread at a time
      *     </li>
      * </ul>
+     * <br>
+     * <h1>Method Overloading</h1>
+     * <p>Method overloading deals with implementing multiple methods with the same name but with different parameters and return types </p>
      *
      * @Example:
      * <br>
