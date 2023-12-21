@@ -1,12 +1,14 @@
 package org.example;
 
-import org.example.OOP.Student;
+
+import org.example.Files.Files;
 
 public class Main {
     public static void main(String[] args) {
-        Student student1 = new Student("John","Doe");
-        student1.setEmail();
-        System.out.print(student1.getEmail());
+        Files file = new Files();
+        file.createFile("files");
+        file.writeFile("Hello World");
+        file.readFile();
     }
 
 }
