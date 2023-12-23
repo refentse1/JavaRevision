@@ -9,6 +9,7 @@ public class Main {
         Student student1 = new Student("John","Doe");
         student1.setEmail();
         System.out.print(student1.getEmail());
+
     }
 
 }
