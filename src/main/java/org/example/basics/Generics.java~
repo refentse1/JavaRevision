@@ -1,0 +1,21 @@
+package org.example.basics;
+
+public class Generics {
+    /**
+     * <h1>Generics</h1>
+     * <p>Allow us to create a singles class, interface and method that can be used with different types of data(objects)</p>
+     * <p>
+     *     <small>This allows for code reuse</small>
+     * </p>
+     * <p>We use the angle brackets to surround the type we will be using for that specific class,method or interface.Inside we write the wrapper class equivalent of a dataType.  </p>
+     * @Example:
+     * <br>
+     * <code>
+     *     
+     * </code>
+     */
+    public Generics(){}
+
+
+}
+
