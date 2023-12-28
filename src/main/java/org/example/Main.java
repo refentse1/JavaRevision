@@ -6,10 +6,13 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Student student1 = new Student("John","Doe");
-        student1.setEmail();
-        System.out.print(student1.getEmail());
-        ArrayList<Integer>E = new ArrayList<Integer>();
+//        Student student1 = new Student("John","Doe");
+//        student1.setEmail();
+//        System.out.print(student1.getEmail());
+//        ArrayList<Integer>E = new ArrayList<Integer>();
+
+//        try{}catch (Exception)
+
 
     }
 

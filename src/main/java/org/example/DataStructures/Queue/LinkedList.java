@@ -1,4 +1,4 @@
-package org.example.DataStructures;
+package org.example.DataStructures.Queue;
 
 public class LinkedList {
     /**
